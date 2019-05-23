@@ -41,12 +41,12 @@ namespace daggr {
 
 /*----- Local Includes -----*/
 
-#include "meta/lifecycle_traits.h"
-#include "meta/function_traits.h"
-#include "node/helper.h"
-#include "node/comp.h"
-#include "node/seq.h"
-#include "node/all.h"
+#include "lifecycle_traits.h"
+#include "function_traits.h"
+#include "helper.h"
+#include "comp.h"
+#include "seq.h"
+#include "all.h"
 
 /*----- Globals -----*/
 

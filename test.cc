@@ -1,5 +1,5 @@
 #include <iostream>
-#include "../include/node.h"
+#include "node.h"
 
 using namespace dart::literals;
 
@@ -16,5 +16,6 @@ int main() {
     auto wrapped = comb.front();
     return dart::packet::make_object("wrapped", std::move(wrapped), "printed", std::move(printed));
   });
-  std::cout << combined("hello"_dart) << std::endl;
+  combined("hello"_dart);
+  //std::cout << combined("hello"_dart) << std::endl;
 }

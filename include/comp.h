@@ -3,8 +3,8 @@
 
 /*----- Local Includes -----*/
 
-#include "../node.h"
-#include "../sched/eager.h"
+#include "node.h"
+#include "eager.h"
 
 /*----- Type Declarations -----*/
 

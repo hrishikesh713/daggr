@@ -7,7 +7,7 @@
 
 /*----- Local Includes -----*/
 
-#include "../node.h"
+#include "node.h"
 
 /*----- Type Declarations -----*/
 
